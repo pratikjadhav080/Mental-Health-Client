@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+#Games { 
+  position: relative;
+  width: 411px;
+  height: 823px;
+  background: #ffffff;
+  margin: auto;
+}
+
+#circlesText {
+  position: absolute;
+  height: 36px;
+  width: 299px;
+  left: 48px;
+  top: 112px;
+  border-radius: nullpx;
+  color: #37474f;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+#circlegame {
+  position: absolute;
+  width: 359px;
+  height: 372.55px;
+  left: 26px;
+  top: 178.48px;
+  background: #ffffff;
+}
+
+#answer6 {
+  position: absolute;
+  width: 363px;
+  height: 48px;
+  left: 26px;
+  top: 582px;
+  background: #a28efc;
+  border-radius: 30px;
+  border: none;
+}
+#answer6:hover{
+  cursor: pointer;
+}
+
+#answer8 {
+  position: absolute;
+  width: 363px;
+  height: 48px;
+  left: 26px;
+  top: 660px;
+  background:#a28efc;
+  border-radius: 30px;
+  border: none;
+}
+#answer8:hover{
+  cursor: pointer;
+}
+
+#Text6,
+#Text8 {
+  position: absolute;
+  width: 114px;
+  height: 27px;
+  left: 168px;
+  top: 12px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #000000;
+}

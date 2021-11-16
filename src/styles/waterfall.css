@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    font-family: "Poppins";
+}
+#waterfall-cont {
+  width: 411px;
+  height: 823px;
+  position: relative;
+  margin: auto;
+  background-color: white !important; 
+}
+
+.waterfall-heading-div {
+  position:sticky;
+  top:44px;
+  width: 411px;
+  height: 48px;
+  background-color: #d8efff;
+  margin-top: 15px;
+  position: relative;
+}
+.waterfall-heading-div > img {
+  position: absolute;
+  left: 30px;
+  top: 15px;
+  height: 20px;
+  cursor: pointer;
+}
+.waterfall-heading-div > h1 {
+  position: absolute;
+  left: 65px;
+  top:7px;
+  font-size: 24px;
+  color: #37474f;
+  font-family: "Poppins";
+  font-weight: 700;
+}
+
+#breathe-text {
+  position: absolute;
+  top: 346px;
+  left:36px;
+  width: 340px;
+  height: 60px;
+  font-size: 20px;
+  color: #37474f;
+  font-weight: 700;
+}
+
+#relax-text {
+  position: absolute;
+  top:436px;
+  left:48px;
+  width: 315px;
+  height: 72px;
+  color: #787878;
+  font-family: "Poppins";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: center;
+
+}
+
+.waterfall-video-div {
+  position: absolute;
+  top:92px;
+  width: 411px;
+  height: 218px;
+}
+
+#play,
+#download {
+  position: absolute;
+  top:548px;
+  border-radius: 30px;
+  height: 44px;
+  width: 146px;
+  background-color: #8773df;
+  border: 0px;
+  color: #ffffff;
+  font-family: "Poppins";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 23px;
+  letter-spacing: 0em;
+  text-align: center;
+  cursor: pointer;
+ 
+}
+
+#play {
+left:26px;
+}
+#download{
+  left:239px;
+}
+
+#vr-headset {
+  position: absolute;
+  top:640px;
+  width: 300px;
+  height: 24px;
+  color: #656b75;
+  position: relative;
+  
+}
+#vr-headset > h1 {
+  font-size: 16px;
+  position: absolute;
+  left: 68px;
+  top: 0px;
+  font-family: "Poppins";
+  font-weight: 700;
+  font-style: Bold
+}
+#vr-headset > img {
+  position: absolute;
+  right: -30px;
+  top: 7px;
+  height: 12px;
+  cursor: pointer;
+}
+#buy {
+  position:absolute;
+  top:700px;
+  left:35px;
+  width: 340px;
+  height: 24px;
+  font-family: "Poppins";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+#buy-btn{
+    position: absolute;
+    top:750px;
+    left:106px;
+    border: 0px;
+    font-size: 16px;
+    color:#656B75;
+    background-color: #ffffff;
+    
+}
+#amazon{
+position: absolute;
+top:750px;
+left:221px;
+font-family: "Poppins";
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: 23px;
+letter-spacing: 0em;
+text-align: left;
+color: #656B75;
+
+}

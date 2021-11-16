@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+#cardOuterBox{
+    position: relative;
+    width: 411px;
+    height: 823px;
+    background: #FFFFFF;
+    margin:  auto;
+}
+
+#cardHeading{
+    position: absolute;
+    width: 208px;
+    height: 36px;
+    left: 101px;
+    top: 136px;
+
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    /* TEXT/HEADING COLOR */
+
+    color: #37474F;
+}
+
+#cardwinner{
+    position: absolute;
+    width: 359px;
+    height: 256.31px;
+    left: 26px;
+    top: 188px;
+}
+
+#cardEarn{
+    position: absolute;
+    width: 207px;
+    height: 36px;
+    left: 105px;
+    top: 512px;
+
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    /* TEXT/ BODY COLOR */
+
+    color: #656B75;
+}
+
+#cardPoint{
+    position: absolute;
+    width: 135px;
+    height: 54px;
+    left: 135px;
+    top: 562px;
+
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 54px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    /* TEXT/ BODY COLOR */
+
+    color: #656B75;
+}
+/* 
+------------------------- */
+
+#cardOuterBoxLosing{
+    position: relative;
+    width: 411px;
+    height: 823px;
+    background: #FFFFFF;
+    margin:  auto;
+}
+
+#cardHeadingLosing{
+    position: absolute;
+    width: 229px;
+    height: 36px;
+    left: 92px;
+    top: 133px;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    /* TEXT/HEADING COLOR */
+
+    color: #37474F;
+}
+
+#cardLosing{
+    position: absolute;
+    width: 359px;
+    height: 267.5px;
+    left: 24px;
+    top: 182px;
+}
+
+#MoreFocus{
+position: absolute;
+width: 340px;
+height: 36px;
+left: 41px;
+top: 493px;
+
+font-family: "Poppins";
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 36px;
+/* identical to box height */
+
+display: flex;
+align-items: center;
+text-align: center;
+
+/* TEXT/ BODY COLOR */
+
+color: #656B75;
+}
+
+#TryAgain{
+    position: absolute;
+    width: 130px;
+    height: 36px;
+    left: 136px;
+    top: 545px;
+
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    /* TEXT/ BODY COLOR */
+
+    color: #656B75;
+    }
+
+    #ToUnlock{
+    position: absolute;
+    width: 200px;
+    height: 36px;
+    left: 102px;
+    top: 597px;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    /* TEXT/ BODY COLOR */
+
+    color: #656B75;
+    }
+

@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+#onboarding {
+    position: relative;
+    width: 411px;
+    height: 823px;
+    background: #FFFFFF;
+    margin: auto;
+}
+
+
+#lavender{
+    position: absolute;
+    width:250px;
+    height:250px;
+    border-radius: 50%;
+    background: #CFC7F2;
+    top :8%;
+    left:8%
+}
+
+#blue{
+    position: absolute;
+    width:200px;
+    height:200px;
+    border-radius: 50%;
+    background: #D8EFFF;
+    top :10%;
+    left:10%
+}
+
+
+#blueaura{
+    position: absolute;
+    width:153px;
+    height: 59px;
+    top :35%;
+    left:10%
+}
+
+

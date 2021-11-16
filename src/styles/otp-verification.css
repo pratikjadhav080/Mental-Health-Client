@@ -1,0 +1,83 @@
+#otp-cont {
+  width: 411px;
+  height: 823px;
+  background-color: #ffffff;
+  position: relative;
+}
+.verification {
+  position: absolute;
+  top: 96px;
+  left: 46px;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 30px;
+  width: 319px;
+  height: 58px;
+  text-align: center;
+  color: #37474f;
+  box-sizing: border-box;
+  padding: 20px 0px;
+}
+#enter-otp {
+  position: absolute;
+  top: 178px;
+  left: 80px;
+  font-family: "Poppins";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #37474f;
+}
+#otpinput1 {
+  left: 70px;
+
+}
+
+#otpinput2 {
+  left: 142px;
+}
+#otpinput3 {
+  left: 214px;
+}
+#otpinput4 {
+  left: 286px;
+}
+
+#otpinput1:focus,#otpinput2:focus,#otpinput3:focus,#otpinput4:focus{
+
+  background-color:#D8EFFF; 
+  border:1px solid #C4C4C4;
+  outline: none;
+}
+
+
+#otp-image {
+  position: absolute;
+  top: 373px;
+  left: 100px;
+}
+
+#otp-btn {
+  position: absolute;
+  height: 44px;
+  width: 146px;
+  left: 123px;
+  top: 719px;
+  border-radius: 30px;
+  color: white;
+  background-color: #a28efc;
+  border: 0px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.2s ease-in;
+}
+#otp-btn:focus {
+    background: #534883;
+  }
+ 
+

@@ -1,0 +1,61 @@
+#Welcome-gif-Box{
+    
+position: relative;
+width: 411px;
+height: 823px;
+background: #FFFFFF;
+margin:auto;
+}
+
+#welcome-gif-img{
+    position: absolute;
+width: 260px;
+height: 260px;
+left: 76px;
+top: 234px;
+}
+
+#welcome-gif-payment{
+    position: absolute;
+width: 306px;
+height: 36px;
+left: 53px;
+top: 567px;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 36px;
+/* identical to box height */
+
+display: flex;
+align-items: center;
+text-align: center;
+
+/* TEXT/ BODY COLOR */
+
+color: #656B75;
+}
+#welcome-gif-back{
+    position: absolute;
+width: 202px;
+height: 24px;
+left: 105px;
+top: 645px;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height */
+
+display: flex;
+align-items: center;
+text-align: center;
+
+/* TEXT/ BODY COLOR */
+
+color: #656B75;
+}

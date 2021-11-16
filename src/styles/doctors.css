@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+#doctorspage{
+    position: relative;
+    background: #FFFFFF;
+    margin: auto;
+}
+
+#docDiv{
+    width:359px;
+    height:178px;
+    border: 0.5px solid #D8DADC;
+    box-sizing: border-box;
+    border-radius: 14px;
+    margin: auto;
+    margin-bottom: 36px;
+    display: grid;
+    grid-template-columns: 35% 65%;
+    padding:14px;
+}
+
+#div1{
+    text-align:left;
+}
+
+#mainDiv{
+    /* position: relative; */
+    padding-top: 146px;
+    padding-bottom: 20px;
+}
+
+#docbottom{
+    position: absolute;
+    width: 411px;
+    height: 16px;
+    background: #FFFFFF;
+}
+
+#docbottom1{
+    position: absolute;
+    top: 4px;
+    width: 114px;
+    height: 0px;
+    background-color: #656B75;
+    border:2px solid #656B75;
+    left: 149px;
+    border-radius: 80px;
+}
+
+.docDetails{
+    position: static;
+    text-align: left;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 18px;
+    color: #656B75;
+    margin-bottom:14px;
+}
+
+#docimage{
+    width:80px;
+    height:80px;
+    border-radius: 50%;
+}
+
+#docname{
+
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 18px;
+    color: #37474F;
+}
+
+#stars{
+    text-align:left;
+    margin-bottom:14px;
+}
+
+#docbuttons{
+    text-align:left;
+}
+
+#details{
+    border: 1px solid #37474F;
+    box-sizing: border-box;
+    background-color:white;
+    color: #37474F;
+    margin-right:28px;
+}
+
+#books{
+    background-color:#A28EFC;
+    color: #FFFFFF;
+    border:none;
+}
+
+#details:active{
+    border: 1px solid #D8DADC;
+}
+
+#books:active{
+    background: #534883;
+}

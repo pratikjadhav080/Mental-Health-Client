@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+#allset{
+    position: relative;
+    width: 411px;
+    height: 807px;
+    background: #EDF8FF;
+    margin: auto;
+}
+
+#allsetp{
+    position: absolute;
+    width: 306px;
+    height: 162px;
+    left: 53px;
+    top: 287px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 48px;
+    color: #A28EFC;
+
+}

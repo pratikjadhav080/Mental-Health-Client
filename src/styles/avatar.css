@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+#avatar{
+    position: relative;
+    width: 411px;
+    height: 823px;
+    background: #FFFFFF;
+    margin: auto;
+}
+
+#girl,#boy{
+    position: absolute;
+    width: 124px;
+    height: 125px;
+    top: 260px;
+    cursor: pointer;
+}
+
+#girl:active{
+    border-radius: 65px;
+    border:8px solid #8773DF;
+}
+
+#boy:active{
+    border-radius: 65px;
+    border:8px solid #8773DF;
+}
+
+#boy{
+    left: 48px;
+}
+
+#girl{
+    left: 214.88px;
+}
+
+#choose{
+    position: absolute;
+    width: 306px;
+    height: 85px;
+    left: 53px;
+    top: 32px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 48px;
+    color: #555555;
+}
+
+#male,#female{
+    position: absolute;
+    width: 81px;
+    height: 48px;
+    top: 398px;
+
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 48px;
+    color: #656B75;
+
+}
+
+#male{
+    left:73px;
+}
+
+#female{
+    left:218px;
+}

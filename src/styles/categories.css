@@ -1,0 +1,71 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+#dfcategory-cont {
+  height: 823px;
+  background-color: #ffffff;
+  position: relative;
+  margin: auto;
+  margin-top: 5px;
+}
+
+.category-heading {
+  position: absolute;
+  background-color: #d8efff;
+  width: 100%;
+  height: 48px;
+  top: 44px;
+}
+.category-heading > h1 {
+  position: absolute;
+  left: 54px;
+  font-family: "Poppins";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #37474f;
+  top: 10px;
+}
+
+.category-heading-btn {
+  position: absolute;
+  left: 15px;
+  top: 16px;
+  border: 0px;
+  background-color: #d8efff;
+  color: #37474f;
+}
+.category-heading-btn > img {
+  width: 18px;
+}
+.all-btn {
+  top: 136px;
+  background-color: #eef8ff;
+}
+.anxiety{
+  top: 238px;
+  background-color: #fceaff;
+}
+.mindfulness{
+  top: 352px;
+  background-color: #fce8de;
+}
+.focus{
+  top: 466px;
+  background-color: #fffcd4;
+}
+.category-sleep-btn {
+  top: 580px;
+}
+.sleep{
+  top: 581px;
+  background-color: #ecffd4;
+}
+.stress{
+  top: 700px;
+  background-color: #ccdfb5;
+}
+

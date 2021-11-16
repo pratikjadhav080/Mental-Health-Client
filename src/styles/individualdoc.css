@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+#docDetailBox{
+        position: relative;
+        height: 823px;
+        background: #FFFFFF;
+        margin: auto;
+}
+
+#docDetailImg{
+        position: absolute;
+        width: 411px;
+        height: 219px;
+        left: 0px;
+        top: 92px;
+}
+
+#docName{
+        position: absolute;
+        height: 30px;
+        left: 24px;
+        top: 343px;
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 30px;
+        color: #37474F;
+}
+
+#docQualification{
+    
+    position: absolute;
+    height: 21px;
+    left: 24px;
+    top: 379px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    color: #656B75;
+}
+
+#docSpecialisation{
+    
+    position: absolute;
+    width: 145px;
+    height: 30px;
+    left: 24px;
+    top: 453px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #37474F;
+}
+
+#docCategory{
+    position: absolute;
+    height: 21px;
+    left: 24px;
+    top: 491px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    color: #656B75;
+}
+
+#docIntroduction{
+    position: absolute;
+    width: 126px;
+    height: 30px;
+    left: 24px;
+    top: 528px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #37474F;
+}
+
+#docBook{
+    position: absolute;
+    width: 146px;
+    height: 44px;
+    left: 133px;
+    top: 732px;
+    background: #A28EFC;
+    border-radius: 30px;
+    border:none;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    cursor:pointer;
+    transition: all 0.2s ease-in;
+}
+
+
+#docBook:active{
+    background: #534883;
+}
+
+#docIntroParagraph{
+    position: absolute;
+    width: 330px;
+    height: 156px;
+    left: 24px;
+    top: 574px;
+    text-align: left;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 20px;
+    color: #656B75;
+    text-align: justify;
+}
+
+#starsind{
+    position: absolute;
+    height:33px;
+    top:406px;
+    left:24px;
+    padding:0px;
+}

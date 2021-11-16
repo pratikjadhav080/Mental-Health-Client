@@ -1,0 +1,150 @@
+
+#BookingOutterBox{
+  position: relative;
+  width: 411px;
+  height: 823px;
+  background: #FFFFFF; 
+  margin: auto;
+}
+
+#Booking-doc-image{
+  position: absolute;
+  width:80px;
+  height:80px;
+  top:139px;
+  left:24px;
+  border-radius: 50%;
+}
+
+#Booking-doc-name{
+  position: absolute;
+  height: 24px;
+  left: 119px;
+  top: 140px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #37474F;
+  text-align: left;
+}
+
+#Booking-doc-category{
+  position: absolute;
+  height: 21px;
+  left: 119px;
+  top: 167px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: #656B75;
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+.Booking-doctor{
+  position: absolute;
+  height: 24px;
+  left: 119px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: #656B75;
+  text-align: left;
+}
+
+#bookingSpec{
+  top: 213px;
+}
+
+#bookingQ{
+  top: 262px;
+}
+
+
+#Booking-doc-contact{
+  position: absolute;
+  width: 278px;
+  height: 21px;
+  left: 119px;
+  top: 305px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 21px;
+  color: #656B75;
+  text-align: left;
+}
+
+#Booking-Session-Date{
+  position: absolute;
+  width: 191px;
+  height: 21px;
+  left: 119px;
+  top: 336px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 21px;
+  text-align: left;
+  color: #656B75;
+}
+
+#Booking-Time{
+  position: absolute;
+  width: 197px;
+  height: 21px;
+  left: 119px;
+  top: 370px;
+  text-align: left;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 21px;
+  color: #656B75;
+}
+
+#Booking-Total{
+    position: absolute;
+    width: 166px;
+    height: 24px;
+    left: 29px;
+    top: 473px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #37474F;
+}
+
+
+#Booking-Total-value{
+  position: absolute;
+  width: 53px;
+  height: 24px;
+  left: 335px;
+  top: 473px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #37474F;
+}
+
+#starsbooking{
+  position: absolute;
+  height: 20px;
+  left: 280px;
+  top: 140px;
+  font-size: 10px;
+}

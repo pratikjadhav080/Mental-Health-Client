@@ -1,0 +1,61 @@
+#meditate-crousel-cont {
+  width: 411px;
+  height: 823px;
+  background-color: #ffffff;
+  margin: auto;
+  position: relative;
+}
+/* #meditate-heading-div {
+  width: 411px;
+  height: 48px;
+  position: absolute;
+  top: 44px;
+  background-color: #d8efff;
+}
+#meditate-heading-div > div {
+  position: absolute;
+  left: 44px;
+  top: 10px;
+  font-family:"Poppins";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #37474f;
+}
+#meditate-heading-div > button {
+  position: absolute;
+  left: 15px;
+  top: 16px;
+  background-color: #d8efff;
+  border: 0px;
+} */
+.slider-div{
+ margin-top: 140px;
+}
+.slider-title{
+ color: #37474F;
+ font-family: "Poppins";
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: 30px;
+letter-spacing: 0em;
+text-align: center;
+margin: 20px 0px;
+}
+.slider-description{
+color: #37474F;
+font-family: "Poppins";
+font-size: 17px;
+font-style: normal;
+font-weight: normal;
+line-height: 30px;
+letter-spacing: 0em;
+text-align: center;
+width: 360px;
+text-align: center;
+
+}

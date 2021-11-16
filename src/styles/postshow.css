@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+#postshow{
+    position: relative;
+    background: #FFFFFF;
+    margin: auto;
+}
+
+#postmainDiv{
+    padding-top: 146px;
+    padding-bottom: 20px;
+    height:780px;
+    overflow-y: auto;
+}
+
+#postInDiv{
+    position:relative;
+    width:359px;
+    height:125px;
+    box-sizing: border-box;
+    border-radius: 14px;
+    margin: auto;
+    margin-bottom: 36px;
+    display: grid;
+    grid-template-columns: 35% 65%;
+    padding:14px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(224, 224, 224, 0.25);
+    border-radius: 8px;
+}
+
+#postCategory{
+    position: absolute;
+    top:16px;
+    left:16px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #37474F;
+}
+
+#postMessage{
+    position: absolute;
+    top:46px;
+    left:16px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 18px;
+    color: #656B75;
+    text-align: left;
+}
+
+#postDate{
+    position: absolute;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 12px;
+    color: #656B75;
+    height: 12px;
+    left:16px;
+    top: 100px;
+}
+
+#postReply{
+    position: absolute;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 12px;
+    color: #656B75;
+    height: 12px;
+    left: 290.34912109375px;
+    top: 103px;
+}
+
+#postLike{
+    position: absolute;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 12px;
+    color: #656B75;
+    height: 12px;
+    left: 255.553955078125px;
+    top: 103px;
+}
+
+#hearticon{
+    position: absolute;
+    height: 18.350000381469727px;
+    width: 19.889196395874023px;
+    left: 255.54px;
+    top: 78px;
+    border-radius: 0px;
+}
+
+#commenticon{
+    position: absolute;
+    height: 20px;
+    width: 19.88922119140625px;
+    left: 312.26px;
+    top: 79px;
+    border-radius: 0px;    
+}

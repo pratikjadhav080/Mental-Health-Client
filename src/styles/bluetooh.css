@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+#BluetoohContainer{
+    position: relative;
+    width: 411px;
+    height: 823px;
+    background: #FFFFFF;
+    margin: auto;
+}
+
+#BluetoohRow1{
+  
+    position: absolute;
+    width: 411px;
+    height: 48px;
+    left: calc(50% - 411px/2);
+    top: 44px;
+    background: #D8EFFF;
+   
+}
+
+#BluetoohRow1>label  {
+    
+    position: static;
+    width: 248px;
+    height: 23px;
+    left: calc(50% - 248px/2 + 17px);
+    top: 0px;
+
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #37474F;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 8px 100px;
+    
+}
+
+#gamesimg{
+        position: absolute;
+        left: 18%;
+        right: 16.67%;
+        top: 26%;
+        bottom: 17%;
+}
+
+#BluetoohRow2{
+    position: absolute;
+    width: 357px;
+    height: 256px;
+    left: 26px;
+    top: 136px;
+    text-align: left;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 32px;
+    color: #656B75;
+}

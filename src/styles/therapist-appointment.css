@@ -1,0 +1,131 @@
+#therapist-appointment-cont{
+    width: 411px;
+    height:823px;
+    background-color: #ffffff;
+    position: relative;
+    font-style: "Poppins";
+    font-weight: 400;
+    line-height: 24px;
+    color:#656B75
+}
+
+#mobile-no-div{
+    position: absolute;
+    top:112px;
+    left:27px;
+    font-size: 16px;
+}
+
+#therapist-line-div{
+    position: absolute;
+    top:118px;
+    left:160px;
+    height: 12px;
+    background-color: #C4C4C4;
+    width: 1px;
+   
+}
+
+#gmail-div{
+    position: absolute;
+    top:114px;
+    left:184px;
+    font-size: 14px;
+    height:21px;
+    word-wrap: break-word;
+
+}
+
+#therapist-appointment-cont div:nth-child(6){
+    position: absolute;
+    top:163px;
+    left:27px;
+    color:#37474F;
+    font-size: 16px;
+    line-height:24px ;
+    font-weight: 600;
+}
+#atm-card-mode{
+    position: absolute;
+    top:219px;
+    left:27px;
+}
+#atm-card-mode + div{
+    position: absolute;
+    top:220px;
+    left:58px;
+    font-weight: 600;
+    font-size: 16px;
+   
+}
+#rightimage {
+    position: absolute;
+    top:231px;
+    left:360px;
+    cursor:pointer;
+    
+}
+#upi-card-mode{
+    position: absolute;
+    top:279px;
+    left:27px;
+}
+#upi-card-mode + div{
+    position: absolute;
+    top:280px;
+    left:58px;
+    font-weight: 600;
+    font-size: 16px;
+   
+}
+#upi-card-mode + div +img {
+    position: absolute;
+    top:291px;
+    left:360px;
+    cursor:pointer;
+    
+}
+
+#wallet-card-mode{
+    position: absolute;
+    top:339px;
+    left:27px;
+}
+#wallet-card-mode + div{
+    position: absolute;
+    top:342px;
+    left:58px;
+    font-weight: 600;
+    font-size: 16px;
+   
+}
+#wallet-card-mode + div +img {
+    position: absolute;
+    top:351px;
+    left:360px;
+    cursor:pointer;
+    
+}
+#netbanking-card-mode{
+    position: absolute;
+    top:402px;
+    left:27px;
+}
+
+#netbanking-card-mode + div{
+    position: absolute;
+    top:402px;
+    left:58px;
+    font-weight: 600;
+    font-size: 16px;
+   
+}
+#netbanking-card-mode + div +img {
+    position: absolute;
+    top:411px;
+    left:360px;
+    cursor:pointer;
+    
+}
+
+

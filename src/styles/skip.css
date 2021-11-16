@@ -1,0 +1,24 @@
+#skip{
+    padding: 12px 85px;
+    position: absolute;
+    width: 358px;
+    height: 48px;
+    left: 26px;
+    top: 621px;
+    border: 1px solid #D8DADC;
+    box-sizing: border-box;
+    border-radius: 30px;
+    color: #656B75;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    background: #FFFFFF;
+    cursor: pointer;
+    transition: all 0.2s ease-in;
+}
+
+#skip:active{
+    border: 1px solid #656B75;
+}

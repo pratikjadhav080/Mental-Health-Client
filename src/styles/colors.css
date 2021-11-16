@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+#colors{
+    position: relative;
+    width: 411px;
+    height: 823px;
+    background: #FFFFFF;
+    margin: auto;
+}
+
+#Blue,#Yellow,#Red,#Green,#Violet,#Brown,#Grey,#Black{
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 30px;
+    color: #37474F;
+    border-radius: 8px;
+    border:none;
+}
+
+#Blue{
+    background: #C9EDFF;
+    left: 57px;
+    top: 178px;
+}
+#Yellow{
+    background: #FFF8A7;
+    left: 233px;
+    top: 178px;
+}
+
+#Red{
+    background: #FC8282;
+    left: 57px;
+    top: 318px;
+}
+
+#Green{
+    background: #CCFFA7;
+    left: 233px;
+    top: 318px;
+}
+
+#Violet{
+    background: #B4A6FC;
+    left: 57px;
+    top: 458px;
+}
+
+#Brown{
+    background: #CB9E86;
+    left: 233px;
+    top: 458px;
+}
+
+#Grey{
+    background: #C4C4C4;
+    left: 57px;
+    top: 598px;
+}
+
+#Black{
+    background: #444444;
+    left: 233px;
+    top: 598px;
+}
+
+#pickcolors{
+    position: absolute;
+    width: 362px;
+    height: 70px;
+    left: 25px;
+    top: 74px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 174%;
+    color: #555555;
+}
+
+

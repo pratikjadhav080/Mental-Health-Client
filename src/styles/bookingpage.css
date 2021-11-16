@@ -1,0 +1,292 @@
+#bookpage{
+    position: relative;
+    height:857px;
+    background: #FFFFFF;
+    margin: auto;
+}
+
+#pbooking{
+    position: absolute;
+    width: 219px;
+    height: 30px;
+    left: 26px;
+    top: 107px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #37474F;
+}
+
+#pinstruction{
+    position: absolute;
+    width: 359px;
+    height: 84px;
+    left: 26px;
+    top: 153px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 18px;
+    color: #656B75;
+    text-align:justify;
+}
+
+#pnote{
+    position: absolute;
+    width: 359px;
+    height: 22px;
+    left: 26px;
+    top: 386px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    color: #656B75;
+}
+
+#bookingdate{
+    position: absolute;
+    width: 91px;
+    height: 24px;
+    left: 26px;
+    top: 446px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #37474F;
+}
+
+#bookingtime{
+    position: absolute;
+    width: 101px;
+    height: 24px;
+    left: 21px;
+    top: 508px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #37474F;
+}
+
+#userphone{
+    position: absolute;
+    width: 105px;
+    height: 21px;
+    left: 26px;
+    top: 598px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    color: #37474F;
+}
+
+#useremail{
+    position: absolute;
+    width: 94px;
+    height: 21px;
+    left: 26px;
+    top: 661px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    color: #37474F;
+}
+
+#calenderimg{
+    position: absolute;
+    width:18px;
+    height:20px;
+    top: 448px;
+    left: 151px;
+}
+
+#timeimage{
+    position: absolute;
+    width:7.41px;
+    height:12px;
+    top: 514px;
+    left: 151px;
+}
+
+#chatlabel{
+    position: absolute;
+    width: 220px;
+    height: 22px;
+    left: 51px;
+    top: 261px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #656B75;
+}
+
+#videolabel{
+    position: absolute;
+    width: 236px;
+    height: 22px;
+    left: 47px;
+    top: 314px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #656B75;
+}
+
+#chat{
+    position: absolute;
+    left: 27px;
+    top: 268px;
+}
+
+#video{
+    position: absolute;
+    left: 27px;
+    top: 319px;
+}
+
+#bookingdateinput{
+    position: absolute;
+    width:192px;
+    height:45.71px;
+    left: 193px;
+    top: 435px;
+    background: #FFFFFF;
+    border: 1px solid #C4C4C4;
+    box-sizing: border-box;
+    border-radius: 30px;
+    outline:none;
+    padding:12px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+#bookingdateinput:focus{
+    background: #EDF8FF;
+}
+
+#bookingtimeinput{
+    position: absolute;
+    width:192px;
+    height:45.71px;
+    left: 193px;
+    top: 497px;
+    border: 1px solid #C4C4C4;
+    box-sizing: border-box;
+    border-radius: 30px;
+    padding:11px;
+    outline:none;
+    appearance:none;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+#bookingtimeinput:focus{
+    background: #EDF8FF;
+}
+
+#bookingphoneinput{
+    position: absolute;
+    width:236px;
+    height:44px;
+    left: 152px;
+    top: 586px;
+    background: #FFFFFF;
+    border: 1px solid #C4C4C4;
+    box-sizing: border-box;
+    border-radius: 30px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #37474F;
+    outline:none;
+    padding-left:20px;
+}
+
+#bookingphoneinput:focus{
+    background: #EDF8FF;
+}
+
+#bookingemailinput{
+    position: absolute;
+    width: 359px;
+    height: 48px;
+    left: 31px;
+    top: 693px;
+    background: #FFFFFF;
+    border: 1px solid #C4C4C4;
+    box-sizing: border-box;
+    border-radius: 30px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #37474F;
+    outline:none;
+    padding-left:20px;
+}
+
+#bookingemailinput:focus{
+    background: #EDF8FF;
+}
+
+#proceedbtn{
+    position: absolute;
+    left: 137px;
+    top: 776px;
+    background: #A28EFC;
+    border-radius: 30px;
+    width:146px;
+    height:44px;
+    border:none;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    cursor:pointer;
+}
+
+
+#bookingbottom {
+    position: absolute;
+    width: 411px;
+    height: 16px;
+    background: #FFFFFF;
+    top: 837px;
+}
+
+#bookingbottom1 {
+    position: absolute;
+    top: 4px;
+    width: 114px;
+    height: 0px;
+    background-color: #656B75;
+    border:2px solid #656B75;
+    left: 149px;
+    border-radius: 80px;
+}

@@ -1,0 +1,299 @@
+#arrow1 {
+    position: absolute;
+    width: 15.84px;
+    height: 15.84px;
+    top: 13.08px;
+    left: 28.16px;
+    bottom: 19.08px;
+}
+
+#my-stats1 {
+    position: absolute;
+    width: 98px;
+    height: 30px;
+    top: 9px;
+    left: 58px;
+    bottom: 9px;
+}
+
+/* =========================================== */
+
+#mindfulnes {
+    position: absolute;
+    width: 175px;
+    height: 30px;
+    top: 116px;
+    left: 118px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+/* =============================================== */
+
+#d_block {
+    position: absolute;
+    width: 183px;
+    height: 183px;
+    top: 162.3px;
+    left: 113.3px;
+    right: 113.3;
+}
+
+#D_T_ONE {
+    position: absolute;
+    width: 106px;
+    height: 106px;
+    border-radius: 53px;
+    top: 202px;
+    left: 154px;
+    z-index: 4;
+}
+
+#D_T_TWO {
+    position: absolute;
+    width: 106px;
+    height: 106px;
+    border-radius: 53px;
+    top: 39.7px;
+    left: 40.7px;
+    background: #D8EFFF;
+}
+
+#D_T_THREE {
+    position: absolute;
+    width: 183px;
+    height: 183px;
+    top: 0px;
+    left: 0px;
+}
+
+/* =========================================== */
+
+#positivity {
+    position: absolute;
+    width: 122px;
+    height: 24px;
+    top: 364px;
+    left: 145px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #37474F;
+}
+
+/* =========================================== */
+
+#task {
+    position: absolute;
+    width: 113px;
+    height: 30px;
+    top: 413px;
+    left: 149px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+/* ============================================ */
+
+#mon1 {
+    position: absolute;
+    width: 18px;
+    height: 128px;
+    top: 467px;
+    left: 55px;
+}
+
+#tue1 {
+    position: absolute;
+    width: 18px;
+    height: 52px;
+    top: 543px;
+    left: 103px;
+}
+
+#thu1 {
+    position: absolute;
+    width: 18px;
+    height: 102px;
+    top: 493px;
+    left: 194px;
+} 
+
+#fri1 {
+    position: absolute;
+    width: 18px;
+    height: 72px;
+    top: 523px;
+    left: 239px;
+}
+
+#sat1 {
+    position: absolute;
+    width: 18px;
+    height: 128px;
+    left: 290px;
+    top: 467px;
+}
+
+#sun1 {
+    position: absolute;
+    width: 18px;
+    height: 128px;
+    top: 467px;
+    left: 338px;
+}
+
+#mon {
+    position: absolute;
+    width: 18px;
+    height: 30px;
+    top: 613px;
+    left: 56px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #37474F;
+}
+
+#tue {
+    position: absolute;
+    width: 12px;
+    height: 30px;
+    top: 613px;
+    left: 105px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #37474F;
+}
+
+#wed {
+    position: absolute;
+    width: 21px;
+    height: 30px;
+    top: 613px;
+    left: 147px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #37474F;
+}
+
+#thu {
+    position: absolute;
+    width: 12px;
+    height: 30px;
+    top: 613px;
+    left: 197px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #37474F;
+}
+
+#fri {
+    position: absolute;
+    width: 11px;
+    height: 30px;
+    top: 613px;
+    left: 244px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #37474F;
+}
+
+#sat {
+    position: absolute;
+    width: 13px;
+    height: 30px;
+    top: 613px;
+    left: 289px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #37474F;
+}
+
+#sun {
+    position: absolute;
+    width: 13px;
+    height: 30px;
+    top: 613px;
+    left: 335px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #37474F;
+}
+
+/* ============================================ */
+
+#achievements {
+    position: absolute;
+    width: 153px;
+    height: 30px;
+    top: 677px;
+    left: 129px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #37474F;
+}

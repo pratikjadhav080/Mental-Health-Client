@@ -1,0 +1,467 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+.lpage_maindiv {
+    position: relative;
+    width: 411px;
+    height: 823px;
+    background: #FFFFFF;
+    margin: auto;
+    
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding:0;
+}
+
+/* ---------------------------------------------------------- */
+
+
+.headerBox1 {
+    position: absolute;
+    width: 411px;
+    height: 44px;
+    left: 0px;
+    top: 0px;
+    background: #D8EFFF;
+}
+
+#time1 {
+    position: absolute;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    margin:0px;
+    left: 24px;
+    top: 12px;
+    color: #000000;
+}
+
+#wifi1,#tower1,#battery1{
+    position: absolute;
+    top: 12px;
+    /* background: #D8EFFF; */
+}
+
+#wifi1 {
+    width: 16.2px;
+    height: 13.5px;
+    left:324px;
+}
+
+#tower1 {
+    width: 15px;
+    height: 15px;
+    left:348px;
+}
+
+#battery1 {
+    width: 9px;
+    height: 15px;
+    left:375px;
+}
+
+/* ----------------------------------------------------------- */
+.lpage_app_status {
+    position: absolute;
+    top: 44px;
+    width: 411px;
+    height: 48px;
+    background: #D8EFFF;
+}
+
+.slide {
+    position: absolute;
+    width: 24px;
+    height: 16px;
+    top: 16px;
+    left: 26px;
+    bottom: 16px;
+    background: #37474F;
+    cursor: pointer;
+}
+
+.bell {
+    position: absolute;
+    left: 363.12px;
+    top: 14px;
+    bottom: 13;
+}
+
+/* -------------------------------------------------------- */
+
+#lpage_girl {
+    /* position: absolute; */
+    width: 65px;
+    height: 163.73;
+    /* left: 174px; */
+}
+
+#girldiv{
+    position: absolute;
+    width: 350px;
+    height: 163.73;
+    left: 35px;
+    top: 164px;
+}
+
+/* -------------------------------------------------------- */
+.lpage_rectangle {
+    position: absolute;
+    top: 354px;
+    width: 411px;
+    height: 469px;
+    background: #E2DCFE;
+}
+
+.lpage_rectangle1 {
+    position: absolute;
+    width: 351px;
+    height: 71px;
+    left: 30px;
+    top: 34px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(181, 164, 229, 0.25);
+    border-radius: 36px;
+}
+
+.lpage_rectangle2 {
+    position: absolute;
+    width: 351px;
+    height: 71px;
+    left: 30px;
+    top: 120px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(181, 164, 229, 0.25);
+    border-radius: 36px;
+}
+
+.lpage_rectangle3 {
+    position: absolute;
+    width: 351px;
+    height: 71px;
+    left: 30px;
+    top: 206px;
+    /* bottom: 192px; */
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(181, 164, 229, 0.25);
+    border-radius: 36px;
+}
+
+.lpage_rectangle4 {
+    position: absolute;
+    width: 351px;
+    height: 71px;
+    left: 30px;
+    top: 292px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(181, 164, 229, 0.25);
+    border-radius: 36px;
+}
+
+#task1 {
+    position: absolute;
+    width: 187.57px;
+    height: 29.5px;
+    left: 26px;
+    top: 21px;
+    bottom: 20.5px;
+    color: #37474F;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 19.6694px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+}
+
+#meditation {
+    position: absolute;
+    width: 209px;
+    height: 21px;
+    left: 24px;
+    top: 25px;
+    bottom: 25px;
+    color: #656B75;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+}
+
+#playing {
+    position: absolute;
+    width: 265px;
+    height: 21px;
+    left: 24px;
+    top: 27px;
+    bottom: 23px;
+    color: #656B75;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+}
+
+#diary {
+    position: absolute;
+    width: 192px;
+    height: 21px;
+    left: 24px;
+    top: 27px;
+    bottom: 23px;
+    color: #656B75;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+}
+
+#heart2 {
+    width: 20px;
+    height: 18.35px;
+    position: absolute;
+    left: 313px;
+    top: 27px;
+    bottom: 25.65px;
+}
+
+/* --------------------------------------------------------- */
+
+.lpage_bottom_nav_bar {
+    position: absolute;
+    width: 411px;
+    height: 71px;
+    left: calc(50% - 411px/2);
+    top: 736px;
+    background: #D8EFFF;
+    border-radius: 24px 24px 0px 0px;
+}
+
+#home {
+    position: absolute;
+    width: 25px;
+    height: 21.25px;
+    left: 30.5px;
+    top: 12.75;
+    bottom: 37px;
+}
+
+#home1 {
+    position: absolute;
+    width: 37px;
+    height: 18px;
+    left: 24px;
+    top: 39px;
+    bottom: 14px;
+    color: #A28EFC;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+}
+
+#game {
+    position: absolute;
+    width: 28.19px;
+    height: 12.5px;
+    left: 127.41px;
+    top: 17.75px;
+    bottom: 40.75px;
+}
+
+#game1 {
+    position: absolute;
+    width: 38px;
+    height: 18px;
+    left: 122.03px;
+    top: 39px;
+    bottom: 14px;
+    color: #37474F;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+}
+
+#meditate {
+    position: absolute;
+    width: 22.9px;
+    height: 20px;
+    left: 235.05px;
+    top: 14px;
+    bottom: 37px;
+}
+
+#meditate1 {
+    position: absolute;
+    width: 54px;
+    height: 18px;
+    left: 219.02px;
+    top: 39px;
+    bottom: 14px;
+    color: #37474F;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+}
+
+#stats {
+    position: absolute;
+    width: 25px;
+    height: 20.84px;
+    left: 347.5px;
+    top: 15px;
+    bottom: 35.16px;
+}
+
+#stats1 {
+    position: absolute;
+    width: 51px;
+    height: 18px;
+    left: 335px;
+    top: 40px;
+    bottom: 13px;
+    color: #37474F;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+}
+
+/* ------------------------------------------------------ */
+
+#bottom {
+    position: absolute;
+    width: 411px;
+    height: 16px;
+    background: #FFFFFF;
+    top: 807px;
+}
+
+#bottom1 {
+    position: absolute;
+    top: 4px;
+    width: 114px;
+    height: 0px;
+    background-color: #656B75;
+    border:2px solid #656B75;
+    left: 149px;
+    border-radius: 80px;
+}
+
+
+.nav-menu{
+    background-color:#FFFFFF;
+    width:231px;
+    height:807px;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    left: -300%;
+    transition: 10ms;
+    z-index: 5;
+}
+
+.nav-menu.active{
+    left: 0;
+    transition: 10ms;
+}
+
+.nav-text{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 8px 0px 8px 16px;
+    list-style: none;
+    height: 60px;
+}
+
+.nav-text a{
+    text-decoration: none;
+    color: black;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 18px;
+    width:95%;
+    height:100%;
+    display: flex;
+    align-items: center;
+    padding: 0 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.nav-text a:hover{
+    background-color: rgb(197, 215, 216);
+}
+
+.nav-menu-items{
+    width:100%;
+    position:absolute;
+    top:155px;
+}
+
+#spantag{
+    margin-left: 16px;
+}
+
+#girlprofile{
+    position: absolute;
+    width:48px;
+    height:48px;
+    left: 30px;
+    top: 49px;
+}
+
+#profilename{
+
+    position: absolute;
+    height: 30px;
+    left: 32px;
+    top: 101px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #37474F;
+    text-align: left;
+    padding-top: 5px;
+}

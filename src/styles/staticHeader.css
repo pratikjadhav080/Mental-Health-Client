@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+.headerBox{
+    position: fixed;
+    width: 411px;
+    height: 44px;
+    background: #FFFFFF;
+    z-index: 1;
+}
+
+#time{
+    position: absolute;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    margin:0px;
+    left: 24px;
+    top: 12px;
+    color: #000000;
+}
+
+#wifi,#tower,#battery{
+    position: absolute;
+    top: 12px;
+}
+
+#wifi{
+    width: 16.2px;
+    height: 13.5px;
+    left:324px;
+}
+
+#tower{
+    width: 15px;
+    height: 15px;
+    left:348px;
+}
+
+#battery{
+    width: 9px;
+    height: 15px;
+    left:375px;
+}

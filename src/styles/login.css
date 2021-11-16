@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+#login {
+    position: relative;
+    width: 411px;
+    height: 823px;
+    background: #FFFFFF;
+    margin: auto;
+}
+
+#logo{
+    position: absolute;
+    width:163px;
+    height:163px;
+    left: 122px;
+    top:53px;
+}
+
+.fields{
+    position: absolute;
+    width: 363px;
+    height: 48px;
+    left:24px;
+    background: #FFFFFF;
+    border: 1px solid #C4C4C4;
+    box-sizing: border-box;
+    border-radius: 37px;
+    padding:20px;
+    font-size: 17px;
+    font-family: 'Poppins';
+    font-style: normal; 
+    transition: all 0.3s ease-in;
+}
+
+input[type="password"] {
+    font-family: Verdana;
+    font-size: 20px;
+  }
+
+.fields:focus {
+    border:1px solid rgb(129, 163, 202);
+    outline:none;
+    background-color: rgba(206, 219, 233, 0.5);
+}
+
+#form>input:nth-child(1){
+    top:362px
+}
+
+#form>input:nth-child(2){
+    top:430px
+}
+
+.loginP{
+    position: absolute;
+    top: 574px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #656B75;
+}
+
+#invalid{
+    top:280px;
+    left:100px;
+}
+
+#newapp{
+    left: 120px;
+}
+
+#Signuproute{
+    left: 223px;
+    text-decoration-line: underline;
+    cursor: pointer;
+}
+
+#facebook,#google{
+    position:absolute;
+    width:362px;
+    height: 48px;
+    top: 639px;
+    left:24px;
+    border: 1px solid #D8DADC;
+    box-sizing: border-box;
+    border-radius: 32px;
+    background: #FFFFFF;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    color: #656B75;
+    cursor: pointer;
+    transition: all 0.3s ease-in;
+}
+
+#facebook:active,#google:active{
+    border: 1px solid #656B75;
+}
+
+#google{
+    top: 699px;
+}
+
+#facebook>img{
+    position: absolute;
+    width: 36px;
+    height: 36px;
+    top: 6px;
+    left:20px;
+}
+
+#google>img{
+    position: absolute;
+    width: 36px;
+    height: 36px;
+    top: 6px;
+    left:20px;
+}
+
+::placeholder {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    color: #D4D6D7;
+  }
+
+  #passwordfield {
+    background-size: 24px 24px;
+    background-repeat: no-repeat;
+    background-position: 325px 0.7rem;
+  }

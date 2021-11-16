@@ -1,0 +1,260 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+#m-profile1 {
+    position: absolute;
+    width: 411px;
+    height: 48px;
+    top: 44px;
+    background: #D8EFFF;
+}
+
+#m-pro1 {
+    position: absolute;
+    width: 15.84px;
+    height: 15.84px;
+    left: 28.16px;
+    top: 13.08px;
+}
+
+#m-pro2 {
+    position: absolute;
+    width: 113px;
+    height: 30px;
+    left: 58px;
+    top: 9px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    color: #37474F;
+}
+
+/* ============================== */
+#m-profile2 {
+    position: absolute;
+    width: 359px;
+    height: 169px;
+    left: 27px;
+    top: 109px;
+    border: 0.5px solid #D8DADC;
+    box-sizing: border-box;
+    border-radius: 8px;
+    text-align: left;
+}
+
+#m-pro3 {
+    position: absolute;
+    height: 18px;
+    top: 22px;
+    left: 17px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 18px;
+    color: #37474F;
+}
+
+#m-pro4 {
+    position: absolute;
+    width: 148px;
+    height: 18px;
+    top: 56px;
+    left: 17px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 18px;
+    color: #37474F;
+}
+
+#m-pro5 {
+    position: absolute;
+    height: 18px;
+    top: 90px;
+    left: 17px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 18px;
+    color: #37474F;
+}
+
+#m-pro6 {
+    position: absolute;
+    width: 56px;
+    height: 22px;
+    top: 133px;
+    left: 266px;
+    border: 0.666667px solid #37474F;
+    box-sizing: border-box;
+    border-radius: 20px;
+}
+
+#m-pro7 {
+    position: absolute;
+    width: 17.33px;
+    height: 12px;
+    top: 5.33px;
+    left: 19.33px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 8px;
+    line-height: 12px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #37474F;
+}
+
+#m-pro8 {
+    position: absolute;
+    width: 56px;
+    height: 22px;
+    left: 293px;
+    top: 132px;    
+}
+
+/* ============================== */
+
+#m-profile3 {
+    position: absolute;
+    width: 359px;
+    height: 33px;
+    top: 302px;
+    left: 26px;
+    border: 0.5px solid #D8DADC;
+    box-sizing: border-box;
+    border-radius: 8px;
+}
+
+#m-pro9 {
+    position: absolute;
+    width: 148px;
+    height: 18px;
+    left: 106px;
+    top: 7px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 18px;
+    color: #37474F;
+}
+
+/* ============================== */
+
+#m-profile4 {
+    position: absolute;
+    width: 87.97px;
+    height: 18px;
+    top: 351px;
+    left: 46px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 18px;
+    color: #37474F;
+}
+
+/* ============================== */
+
+#m-profile5 {
+    position: absolute;
+    width: 359px;
+    height: 124px;
+    top: 383px;
+    left: 27px;
+    border: 0.5px solid #D8DADC;
+    box-sizing: border-box;
+    border-radius: 8px;
+}
+
+#m-pro10 {
+    position: absolute;
+    height: 18px;
+    top: 16px;
+    left: 15px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 18px;
+    color: #656B75;
+}
+
+#m-pro11 {
+    position: absolute;
+    height: 18px;
+    top: 16px;
+    left: 233.64px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 18px;
+    color: #656B75;
+}
+
+#m-pro12 {
+    position: absolute;
+    height: 18px;
+    top: 16px;
+    left: 300px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 18px;
+    color: #656B75;
+}
+
+#m-pro13 {
+    position: absolute;
+    width: 136px;
+    height: 23px;
+    top: 81px;
+    left: 105px;
+    background: #A28EFC;
+    border-radius: 30px;
+}
+
+#m-pro14 {
+    position: absolute;
+    width: 82px;
+    height: 15px;
+    top: 4.52px;
+    left: 32.02px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 15px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+/* ============================== */
+
+#noappointment{
+    position: absolute;
+    height: 18px;
+    width: 107px;
+    left: 149px;
+    top: 412px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 18px;
+    color: #656B75;
+}
