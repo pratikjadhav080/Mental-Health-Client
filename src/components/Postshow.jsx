@@ -19,7 +19,7 @@ export const Postshow = () => {
 
     const fetchposts = () => {
 
-        const URL = obj.id === "all" ? "http://localhost:7765/posts" : `http://localhost:7765/posts/category/${obj.id}`
+        const URL = obj.id === "all" ? `${process.env.BACKEND_URL}/posts` : `${process.env.BACKEND_URL}/posts/category/${obj.id}`
 
         axios
             .get(URL, { withCredentials: true })
@@ -40,7 +40,7 @@ export const Postshow = () => {
         }
 
         axios
-            .get(`http://localhost:7765/categories/${obj.id}`, { withCredentials: true })
+            .get(`${process.env.BACKEND_URL}/categories/${obj.id}`, { withCredentials: true })
             .then(res => {
                 // console.log("data", res.data.category.categoryname)
                 setCat(res.data.category.categoryname)

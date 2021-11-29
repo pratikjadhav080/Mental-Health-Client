@@ -40,7 +40,7 @@ const Therapies = () =>{
 
   const fetchCategories = () => {
     axios
-      .get("http://localhost:7765/categories", { withCredentials: true })
+      .get(`${process.env.BACKEND_URL}/categories`, { withCredentials: true })
       .then(res => {
         console.log("data", res.data.categories)
         setbtns(res.data.categories)

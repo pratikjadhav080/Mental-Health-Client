@@ -17,7 +17,7 @@ export const Bookingcomplete = () => {
   const bookingData = JSON.parse(localStorage.getItem("bookData"))
 
   useEffect(()=>{
-      axios.post("http://localhost:7765/appointments", bookingData)
+      axios.post(`${process.env.BACKEND_URL}/appointments`, bookingData)
       .then(res => {
         console.log(res);
         console.log(res.data);
@@ -62,18 +62,3 @@ export const Bookingcomplete = () => {
   );
 };
 
-
-{/* <div id="Booking-doc-image">
-<img src={specificdoctor.photo} alt="doctor image" />     
-</div>
-
- <h4 id="Booking-doc-name">{specificdoctor.name}</h4>
- <h5 id="Booking-doc-category">{specificdoctor.profession}</h5>
- <h3 id="Booking-doc-specialist">SPECIALIST - {specificdoctor.specialization ? specificdoctor.specialization.map((item) => item.categoryname).join(", ") : ""}</h3>
- <h3 id="Booking-doc-qualification">QUALIFICATION - {specificdoctor.qualification}</h3>
- <h3 id="Booking-doc-contact" >SESSION TYPE - {appointment.sessiontype}</h3>
- <h3 id="Booking-Session-Date">SESSION DATE - {appointment.date} </h3>
- <h3 id="Booking-Time">SESSION TIME - {appointment.time}</h3>
-
- <h2 id="Booking-Total" >TOTAL AMOUNT PAID</h2>
- <h2  id="Booking-Total-value">Rs {appointment.sessiontype==="CHAT"?399:599}</h2> */}

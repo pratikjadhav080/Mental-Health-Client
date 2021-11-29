@@ -29,7 +29,7 @@ function Createpost() {
 
     const fetchCategories = () => {
         axios
-            .get("http://localhost:7765/categories", { withCredentials: true })
+            .get(`${process.env.BACKEND_URL}/categories`, { withCredentials: true })
             .then(res => {
                 setbtns(res.data.categories)
             })
@@ -68,7 +68,7 @@ function Createpost() {
         e.preventDefault()
         console.log(postData)
 
-        axios.post("http://localhost:7765/posts", postData)
+        axios.post(`${process.env.BACKEND_URL}/posts`, postData)
             .then(res => {
                 console.log(res);
                 console.log(res.data);

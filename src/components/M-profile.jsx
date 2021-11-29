@@ -18,7 +18,7 @@ export function Mprofile() {
 
     useEffect(() => {
         axios
-            .get(`http://localhost:7765/appointments/user/${data.user._id}`, { withCredentials: true })
+            .get(`${process.env.BACKEND_URL}/appointments/user/${data.user._id}`, { withCredentials: true })
             .then(res => {
 
                 if (!res.data.coming) {

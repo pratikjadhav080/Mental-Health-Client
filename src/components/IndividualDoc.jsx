@@ -21,7 +21,7 @@ export const Individualdoctor = () => {
 
     const fetchDoctor = () => {
         axios
-            .get(`http://localhost:7765/doctors/${obj.id}`, { withCredentials: true })
+            .get(`${process.env.BACKEND_URL}/doctors/${obj.id}`, { withCredentials: true })
             .then(res => {
                 console.log("data", res.data.doctor)
                 setDoc(res.data.doctor)
