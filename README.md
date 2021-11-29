@@ -11,30 +11,6 @@
 - Users can also play a small game and watch a meditation video in order to relax their mind.
 
 
-## Installing and running the app in pc
-
-<!-- <hr> -->
-To run this application on your local system, execute the following commands on your terminal/command line:
-  
-    <code>git clone https://github.com/pratikjadhav080/Mental-Health.git</code>
-
-  ### It has two folders-
-
-1. backend
-
-  <code>npm i</code> 
-  
-  <code>npm run server</code> 
-
-  create a .env file with username, database name and password of mongodb, google client id and google client secret, facebook app id and facebook app secret, jwt secret key
-
-2. mentalhealth
-
-  <code>npm i</code>
-
-  <code>npm start</code>
-
-
 ## A Glimpse of our website
 
 1. Onboarding Page-
@@ -129,6 +105,10 @@ Took some help from these resources
 3. Rahul Kumar - [Github](https://github.com/fitrahul)
 4. Prakash Chandra - [Github](https://github.com/Prakashchandra041)
 
+
+## Live Demo of our website
+
+https://mental-health-client.vercel.app
 
 
 
