@@ -36,7 +36,7 @@ export const Individualpost = () => {
 
     const fetchPost = () => {
         axios
-            .get(`${process.env.BACKEND_URL}/posts/${obj.id}`, { withCredentials: true })
+            .get(`${process.env.REACT_APP_BACKEND_URL}/posts/${obj.id}`, { withCredentials: true })
             .then(res => {
                 console.log("data", res.data)
                 setPost(res.data.post)
@@ -48,7 +48,7 @@ export const Individualpost = () => {
 
     const fetchReplies = () => {
         axios
-            .get(`${process.env.BACKEND_URL}/replies/post/${obj.id}`, { withCredentials: true })
+            .get(`${process.env.REACT_APP_BACKEND_URL}/replies/post/${obj.id}`, { withCredentials: true })
             .then(res => {
                 console.log("data", res.data)
                 setReplies(res.data.reply)
@@ -62,7 +62,7 @@ export const Individualpost = () => {
 
     const AllLikes = () => {
         axios
-            .get(`${process.env.BACKEND_URL}/likes/post/${obj.id}`, { withCredentials: true })
+            .get(`${process.env.REACT_APP_BACKEND_URL}/likes/post/${obj.id}`, { withCredentials: true })
             .then(res => {
                 console.log("Alllikes", res.data.like.length)
                 setAll(res.data.like.length)
@@ -74,7 +74,7 @@ export const Individualpost = () => {
 
     const likedornot = () => {
         axios
-            .get(`${process.env.BACKEND_URL}/likes/percomment/${obj.id}/${user._id}`, { withCredentials: true })
+            .get(`${process.env.REACT_APP_BACKEND_URL}/likes/percomment/${obj.id}/${user._id}`, { withCredentials: true })
             .then(res => {
                 console.log("likedata", res.data)
                 res.data.like.length > 0 ? setLike(true) : setLike(false)
@@ -89,7 +89,7 @@ export const Individualpost = () => {
 
         if (like) {
             axios
-                .delete(`${process.env.BACKEND_URL}/likes/deletelike/${obj.id}/${user._id}`, { withCredentials: true })
+                .delete(`${process.env.REACT_APP_BACKEND_URL}/likes/deletelike/${obj.id}/${user._id}`, { withCredentials: true })
                 .then(res => {
                     console.log("likedata", res.data)
                     setLike(false)
@@ -102,7 +102,7 @@ export const Individualpost = () => {
             //post the like
 
             axios
-                .post(`${process.env.BACKEND_URL}/likes`, { userid: user._id, postid: obj.id })
+                .post(`${process.env.REACT_APP_BACKEND_URL}/likes`, { userid: user._id, postid: obj.id })
                 .then(res => {
                     console.log("likedata", res.data)
                     setLike(true)
@@ -131,7 +131,7 @@ export const Individualpost = () => {
         e.preventDefault()
         console.log(replyData)
 
-        axios.post(`${process.env.BACKEND_URL}/replies`, replyData)
+        axios.post(`${process.env.REACT_APP_BACKEND_URL}/replies`, replyData)
             .then(res => {
                 console.log(res);
                 console.log(res.data);

@@ -40,7 +40,7 @@ export const Book = () => {
         console.log(name, value)
 
         axios
-            .get(`${process.env.BACKEND_URL}/appointments/searchappointment/${e.target.value}/${obj.id}`, { withCredentials: true })
+            .get(`${process.env.REACT_APP_BACKEND_URL}/appointments/searchappointment/${e.target.value}/${obj.id}`, { withCredentials: true })
             .then(res => {
                 console.log("data", res.data)
                 setSlots(res.data.filteredslots)

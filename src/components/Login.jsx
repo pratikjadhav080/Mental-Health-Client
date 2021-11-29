@@ -70,7 +70,7 @@ export const Login = () => {
             return
         }
 
-        axios.post(`${process.env.BACKEND_URL}/login`, userData)
+        axios.post(`${process.env.REACT_APP_BACKEND_URL}/login`, userData)
             .then(res => {
                 setSignUpError(false)
                 emptyData()
@@ -88,13 +88,13 @@ export const Login = () => {
 
     const googleAuth = () => {
         localStorage.setItem("loginMethod","Fastlogin")
-        window.open(`${process.env.BACKEND_URL}/auth/google`,'_self');
+        window.open(`${process.env.REACT_APP_BACKEND_URL}/auth/google`,'_self');
         
     }
 
     const facebookAuth = () => {
         localStorage.setItem("loginMethod","Fastlogin")
-        window.open(`${process.env.BACKEND_URL}/auth/facebook/`,'_self');
+        window.open(`${process.env.REACT_APP_BACKEND_URL}/auth/facebook/`,'_self');
     }
 
     return (

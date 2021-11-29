@@ -40,7 +40,7 @@ const Therapies = () =>{
 
   const fetchCategories = () => {
     axios
-      .get(`${process.env.BACKEND_URL}/categories`, { withCredentials: true })
+      .get(`${process.env.REACT_APP_BACKEND_URL}/categories`, { withCredentials: true })
       .then(res => {
         console.log("data", res.data.categories)
         setbtns(res.data.categories)

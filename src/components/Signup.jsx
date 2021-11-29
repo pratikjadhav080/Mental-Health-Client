@@ -71,7 +71,7 @@ export const Signup = () => {
         console.log(userData)
 
 
-        axios.post(`${process.env.BACKEND_URL}/register`, userData)
+        axios.post(`${process.env.REACT_APP_BACKEND_URL}/register`, userData)
             .then(res => {
                 setSignUpError(false)
                 emptyData()
@@ -89,13 +89,13 @@ export const Signup = () => {
 
     const googleAuth = () => {
         localStorage.setItem("loginMethod","Fastlogin")
-        window.open(`${process.env.BACKEND_URL}/auth/google`,'_self');
+        window.open(`${process.env.REACT_APP_BACKEND_URL}/auth/google`,'_self');
     }
-//${process.env.BACKEND_URL}/auth/google
-//${process.env.BACKEND_URL}/auth/google
+//${process.env.REACT_APP_BACKEND_URL}/auth/google
+//${process.env.REACT_APP_BACKEND_URL}/auth/google
     const facebookAuth = () => {
         localStorage.setItem("loginMethod","Fastlogin")
-        window.open(`${process.env.BACKEND_URL}/auth/facebook/`,'_self');
+        window.open(`${process.env.REACT_APP_BACKEND_URL}/auth/facebook/`,'_self');
     }
 
     return (

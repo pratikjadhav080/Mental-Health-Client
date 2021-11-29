@@ -29,7 +29,7 @@ function Createpost() {
 
     const fetchCategories = () => {
         axios
-            .get(`${process.env.BACKEND_URL}/categories`, { withCredentials: true })
+            .get(`${process.env.REACT_APP_BACKEND_URL}/categories`, { withCredentials: true })
             .then(res => {
                 setbtns(res.data.categories)
             })
@@ -68,7 +68,7 @@ function Createpost() {
         e.preventDefault()
         console.log(postData)
 
-        axios.post(`${process.env.BACKEND_URL}/posts`, postData)
+        axios.post(`${process.env.REACT_APP_BACKEND_URL}/posts`, postData)
             .then(res => {
                 console.log(res);
                 console.log(res.data);

@@ -21,7 +21,7 @@ export const Individualdoctor = () => {
 
     const fetchDoctor = () => {
         axios
-            .get(`${process.env.BACKEND_URL}/doctors/${obj.id}`, { withCredentials: true })
+            .get(`${process.env.REACT_APP_BACKEND_URL}/doctors/${obj.id}`, { withCredentials: true })
             .then(res => {
                 console.log("data", res.data.doctor)
                 setDoc(res.data.doctor)

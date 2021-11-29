@@ -40,7 +40,7 @@ export const Doctors = () => {
 
     const fetchDoctors = () => {
         axios
-            .get(`${process.env.BACKEND_URL}/doctors/category/${obj.id}`, { withCredentials: true })
+            .get(`${process.env.REACT_APP_BACKEND_URL}/doctors/category/${obj.id}`, { withCredentials: true })
             .then(res => {
                 console.log("data", res.data.doctor)
                 setDocList(res.data.doctor)
@@ -52,7 +52,7 @@ export const Doctors = () => {
 
     const fetchCatgory = () => {
         axios
-            .get(`${process.env.BACKEND_URL}/categories/${obj.id}`, { withCredentials: true })
+            .get(`${process.env.REACT_APP_BACKEND_URL}/categories/${obj.id}`, { withCredentials: true })
             .then(res => {
                 // console.log("data", res.data.category.categoryname)
                 setCategory(res.data.category.categoryname)

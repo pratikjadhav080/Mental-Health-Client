@@ -17,7 +17,7 @@ export const Bookingcomplete = () => {
   const bookingData = JSON.parse(localStorage.getItem("bookData"))
 
   useEffect(()=>{
-      axios.post(`${process.env.BACKEND_URL}/appointments`, bookingData)
+      axios.post(`${process.env.REACT_APP_BACKEND_URL}/appointments`, bookingData)
       .then(res => {
         console.log(res);
         console.log(res.data);
