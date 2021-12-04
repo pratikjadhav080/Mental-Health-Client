@@ -23,10 +23,10 @@ export const Sidebar= ({prop,username})=>{
                     {SiderbarData.map((item, index) => {
                         return (
                             <li key={index} className={item.cName}>
-                                {item.path === "" ? <>
+                                {item.path === "" ? <Link>
                                     <img src={item.icon} alt={item.icon}></img>
                                     <span id="spantag">{item.title}</span>
-                                </> : <Link to={item.path}>
+                                </Link> : <Link to={item.path}>
                                     <img src={item.icon} alt={item.icon}></img>
                                     <span id="spantag">{item.title}</span>
                                 </Link>}
