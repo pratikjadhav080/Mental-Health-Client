@@ -2,7 +2,7 @@ import '../styles/login.css'
 import axios from 'axios';
 import { StaticHeader } from './Staticheader'
 import { useEffect, useState } from 'react';
-import { Link,useHistory } from 'react-router-dom'
+import { Link, useHistory } from 'react-router-dom'
 import styled from "styled-components";
 
 const Button = styled.input`
@@ -34,30 +34,30 @@ const Button = styled.input`
 export const Login = () => {
 
     const history = useHistory();
-    const [signuperror,setSignUpError] = useState(false)
+    const [signuperror, setSignUpError] = useState(false)
 
-    useEffect(()=>{
+    useEffect(() => {
         localStorage.clear();
-    },[])
+    }, [])
 
-    const [userData,setUserData] = useState({
-        email:"",
-        password:""
+    const [userData, setUserData] = useState({
+        email: "",
+        password: ""
     })
 
-    const handlechange = (e) =>{
+    const handlechange = (e) => {
 
-        const {name,value} = e.target;
+        const { name, value } = e.target;
         setUserData({
             ...userData,
-            [name]:value,
+            [name]: value,
         })
     }
 
-    const emptyData = () =>{
+    const emptyData = () => {
         setUserData({
-            email:"",
-            password:""
+            email: "",
+            password: ""
         })
 
     }
@@ -66,7 +66,7 @@ export const Login = () => {
 
         e.preventDefault()
 
-        if(!userData.email || !userData.password){
+        if (!userData.email || !userData.password) {
             return
         }
 
@@ -77,24 +77,24 @@ export const Login = () => {
                 console.log(res);
                 console.log(res.data);
                 localStorage.setItem('data', JSON.stringify(res.data));
-                localStorage.setItem("loginMethod","Normallogin")
+                localStorage.setItem("loginMethod", "Normallogin")
                 history.push("/blueaura");
-            }).catch(function(e) {
+            }).catch(function (e) {
                 setSignUpError(true)
                 emptyData()
-                console.error("e",e.response);
+                console.error("e", e.response);
             })
     }
 
     const googleAuth = () => {
-        localStorage.setItem("loginMethod","Fastlogin")
-        window.open(`${process.env.REACT_APP_BACKEND_URL}/auth/google`,'_self');
-        
+        localStorage.setItem("loginMethod", "Fastlogin")
+        window.open(`${process.env.REACT_APP_BACKEND_URL}/auth/google`, '_self');
+
     }
 
     const facebookAuth = () => {
-        localStorage.setItem("loginMethod","Fastlogin")
-        window.open(`${process.env.REACT_APP_BACKEND_URL}/auth/facebook/`,'_self');
+        localStorage.setItem("loginMethod", "Fastlogin")
+        window.open(`${process.env.REACT_APP_BACKEND_URL}/auth/facebook/`, '_self');
     }
 
     return (
@@ -103,7 +103,7 @@ export const Login = () => {
 
                 <StaticHeader />
 
-                {signuperror?<p className="loginP" id="invalid">Invalid email or password</p>:""}
+                {signuperror ? <p className="loginP" id="invalid">Invalid email or password</p> : ""}
 
                 <div><img id="logo" src="blueaura.png" alt="leftarrow"></img></div>
 
@@ -116,14 +116,14 @@ export const Login = () => {
                 <div>
                     <p className="loginP" id="newapp">New to app?</p>
                     <Link to="/signup">
-                    <p className="loginP" id="Signuproute">Sign up</p>
+                        <p className="loginP" id="Signuproute">Sign up</p>
                     </Link>
-                    
+
                 </div>
 
                 <button id="facebook" onClick={facebookAuth}><img src="facebook.jpg" alt="facebook"></img>Sign up with facebook</button>
                 <button id="google" onClick={googleAuth}><img src="google.jpg" alt="google"></img>Sign up with Google</button>
-            
+
             </div>
         </>
     )

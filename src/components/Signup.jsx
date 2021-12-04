@@ -34,28 +34,28 @@ const Button = styled.input`
 export const Signup = () => {
 
     const history = useHistory();
-    const [signuperror,setSignUpError] = useState(false)
+    const [signuperror, setSignUpError] = useState(false)
 
-    const [userData,setUserData] = useState({
-        name:"",
-        email:"",
-        password:""
+    const [userData, setUserData] = useState({
+        name: "",
+        email: "",
+        password: ""
     })
 
-    const handlechange = (e) =>{
+    const handlechange = (e) => {
 
-        const {name,value} = e.target;
+        const { name, value } = e.target;
         setUserData({
             ...userData,
-            [name]:value,
+            [name]: value,
         })
     }
 
-    const emptyData = () =>{
+    const emptyData = () => {
         setUserData({
-            name:"",
-            email:"",
-            password:""
+            name: "",
+            email: "",
+            password: ""
         })
 
     }
@@ -64,7 +64,7 @@ export const Signup = () => {
 
         e.preventDefault()
 
-        if(!userData.name || !userData.email || !userData.password){
+        if (!userData.name || !userData.email || !userData.password) {
             return
         }
 
@@ -78,24 +78,23 @@ export const Signup = () => {
                 console.log(res);
                 console.log(res.data);
                 history.push("/login");
-            }).catch(function(e) {
+            }).catch(function (e) {
                 setSignUpError(true)
                 emptyData()
-                console.error("e",e.response); 
+                console.error("e", e.response);
             })
     }
 
 
 
     const googleAuth = () => {
-        localStorage.setItem("loginMethod","Fastlogin")
-        window.open(`${process.env.REACT_APP_BACKEND_URL}/auth/google`,'_self');
+        localStorage.setItem("loginMethod", "Fastlogin")
+        window.open(`${process.env.REACT_APP_BACKEND_URL}/auth/google`, '_self');
     }
-//${process.env.REACT_APP_BACKEND_URL}/auth/google
-//${process.env.REACT_APP_BACKEND_URL}/auth/google
+    
     const facebookAuth = () => {
-        localStorage.setItem("loginMethod","Fastlogin")
-        window.open(`${process.env.REACT_APP_BACKEND_URL}/auth/facebook/`,'_self');
+        localStorage.setItem("loginMethod", "Fastlogin")
+        window.open(`${process.env.REACT_APP_BACKEND_URL}/auth/facebook/`, '_self');
     }
 
     return (
@@ -104,7 +103,7 @@ export const Signup = () => {
 
                 <StaticHeader />
 
-                {signuperror?<p className="commonp" id="alreadySignup">Already registered, please go to login</p>:""}
+                {signuperror ? <p className="commonp" id="alreadySignup">Already registered, please go to login</p> : ""}
 
 
                 <div><img id="signlogo" src="blueaura.png" alt="alt"></img></div>
@@ -119,13 +118,13 @@ export const Signup = () => {
                 <div>
                     <p className="commonp" id="member">Already a member?</p>
                     <Link to="/login">
-                    <p className="commonp" id="Login">Login</p>
+                        <p className="commonp" id="Login">Login</p>
                     </Link>
                 </div>
 
                 <button id="facebook" onClick={facebookAuth}><img src="facebook.jpg" alt="alt"></img>Sign up with facebook</button>
                 <button id="google" onClick={googleAuth}><img src="google.jpg" alt="alt"></img>Sign up with Google</button>
-    
+
             </div>
         </>
     )
