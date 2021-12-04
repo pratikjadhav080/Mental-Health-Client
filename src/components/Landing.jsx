@@ -4,11 +4,7 @@ import axios from 'axios';
 import { AppStatusBar } from './App-status-bar'
 import { Bottom } from './Bottom'
 import { BottomNavBar } from './Bottom-nav-bar'
-import { Navbar } from './Navbar'
 import { Rectangle } from './Rectangle'
-// import { StaticHeader } from './Staticheader'
-// import { SiderbarData } from './SidebarData'
-// import {Link} from 'react-router-dom'
 import { Sidebar } from './Sidebar'
 import { StaticHeader } from './Staticheader';
 
