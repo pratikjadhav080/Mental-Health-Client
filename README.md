@@ -2,6 +2,9 @@
 
 > The most simple & convenient way to access the talk therapy - anytime, anywhere, any device. This project was build as a construct week project by the Masai School Students.
 
+## Live Demo of our website
+
+https://mental-health-client.vercel.app
 
 ## Features
 
@@ -104,11 +107,4 @@ Took some help from these resources
 2. Ashwani Kumar Pankaj - [Github](https://github.com/ashwanikpankaj)
 3. Rahul Kumar - [Github](https://github.com/fitrahul)
 4. Prakash Chandra - [Github](https://github.com/Prakashchandra041)
-
-
-## Live Demo of our website
-
-https://mental-health-client.vercel.app
-
-
 
