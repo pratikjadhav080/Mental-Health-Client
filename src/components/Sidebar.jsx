@@ -30,7 +30,6 @@ export const Sidebar = ({ prop, username }) => {
                                     <img src={item.icon} alt={item.icon}></img>
                                     <span id="spantag">{item.title}</span>
                                 </Link>}
-
                             </li>
                         )
                     })}
