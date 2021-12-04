@@ -9,7 +9,7 @@ export const SiderbarData = [
     },
     {
         title : "My Diary",
-        path:'/',
+        path:'',
         icon:"mydiary.svg",
         cName:'nav-text'
     },
@@ -27,19 +27,19 @@ export const SiderbarData = [
     },
     {
         title : "Settings",
-        path:'/',
+        path:'',
         icon:"settings.svg",
         cName:'nav-text'
     },
     {
         title : "Contact us",
-        path:'/',
+        path:'',
         icon:"contact.svg",
         cName:'nav-text'
     },
     {
         title : "Help-& FAQS",
-        path:'/',
+        path:'',
         icon:"help.svg",
         cName:'nav-text'
     },
