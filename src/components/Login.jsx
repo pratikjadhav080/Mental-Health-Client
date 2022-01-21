@@ -109,7 +109,7 @@ export const Login = () => {
 
                 <form onSubmit={normalSignUp} id="form">
                     <input value={userData.email} name="email" onChange={handlechange} className="fields" type="email" placeholder="E-mail" />
-                    <input value={userData.password} name="password" onChange={handlechange} id="passwordfield" style={{ backgroundImage: "url('eyebrow.svg')" }} className="fields" type="password" placeholder="Password (8+ CHARACTERS)" />
+                    <input value={userData.password} name="password" onChange={handlechange} id="passwordfield" style={{ backgroundImage: "url('eyebrow.svg')" }} className="fields" type="password" placeholder="Password (4+ CHARACTERS)" />
                     <Button type="submit" value="Login to account" />
                 </form>
 
