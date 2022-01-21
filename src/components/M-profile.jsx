@@ -55,7 +55,6 @@ export function Mprofile() {
                 </div>
 
                 {noUpcoming ? <>
-                    <div id="m-profile4">Upcoming</div>
 
                     <div id="m-profile5">
                         <div id="m-pro10">Dr. {doctorName}, {profession}</div>
